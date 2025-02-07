@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+
+  <title>Block 21: Async / Await</title>
+  <script src="./index.js" defer></script>
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Party Planner Guide</h1>
+  </header>
+
+  <div id="new-event-form-container">
+    <form id="new-event-form">
+      
+      <label for="name"> Name:
+      <input type="text" id="name" name="name" placeholder="Name" required>
+      </label>
+
+      <label for="description"> Description:
+      <textarea id="description" name="description" placeholder="Description" required></textarea>
+      </label>
+
+      <label for="date"> Date: 
+      <input type="date" id="date" name="date" />
+      </label>
+      
+      <label for="location"> Location:
+      <input type="text" id="location" name="location" placeholder="Location">
+      </label>
+      
+      <label for="time">Time:
+      <input type="time" id="time" name="time">
+      </label>
+            
+      <button type="submit">Create</button>
+    
+    </form>
+  
+  </div>
+  <div id="events-container"></div>
+</body>
+
+</html>
